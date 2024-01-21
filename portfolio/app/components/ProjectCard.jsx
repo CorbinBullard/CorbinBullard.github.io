@@ -10,7 +10,7 @@ export default function ProjectCard({
   description,
 }) {
   return (
-    <article className="cursor-pointer flex-col w-96 h-64 text-black">
+    <article className="cursor-pointer flex-col w-96 h-64 text-black min-w-96">
       <img src={image} className="rounded-t-xl min-h-48" />
       <div className="flex-col justify-center bg-slate-100 rounded-b-xl">
         <h1 className="text-center pt-3 font-bold">{title}</h1>

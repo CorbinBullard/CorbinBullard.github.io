@@ -1,7 +1,7 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "./ProjectCard";
 
-export default function page() {
+export default function Projects() {
   const projects = [
     {
       image: "/photos/HelloHome.png",
@@ -33,7 +33,7 @@ export default function page() {
     },
   ];
   return (
-    <div className="flex justify-center gap-5">
+    <div id="projects" className="flex justify-center gap-5 flex-wrap">
       {projects.map((project) => {
         return (
           <ProjectCard
